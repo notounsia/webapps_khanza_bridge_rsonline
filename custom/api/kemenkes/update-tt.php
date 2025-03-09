@@ -3,8 +3,8 @@
 // Data untuk update tempat tidur
 function update_tt($id_tt, $jumlah, $terpakai)
 {
-    $rs_id = "6110012"; //kode rs dari kemenkes
-    $pass = "Singgemati@#$!321";
+    $rs_id = ""; //kode rs dari kemenkes
+    $pass = "";
     
     //Get current Timestamp
     $dt = new DateTime("now", new DateTimeZone("UTC"));
